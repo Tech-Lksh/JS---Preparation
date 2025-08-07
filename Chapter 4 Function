@@ -1,0 +1,104 @@
+// Function in JavaScript 
+
+// Function Declarations
+
+// -->
+function love() {
+    console.log("I Love my Skills");
+}
+
+love();
+
+// -->
+function name() {
+    console.log("My name is lokesh");
+}
+
+name();
+
+// -->
+function add() {
+    console.log(5 + 10);
+}
+
+add();
+
+// -->
+function merge() {
+    console.log("Lokesh" + " " + "Pardhi");
+}
+
+merge();
+
+
+// ---> Function Parameters And Arguments
+function add(v1, v2) {
+    console.log(v1 + v2);
+}
+
+add(5, 10);
+
+function merge(v1, v2, v3, v4, v5) {
+    console.log(v1 + v2 + v3 + v4 + v5);
+}
+
+merge("Lokesh" , " " , "Imratlal" , " " , "Pardhi");
+
+
+function sub (v1, v2, v3, v4) {
+    console.log(v1 - v2 - v3 - v4);
+}
+
+sub(2, 4, 6, 8);
+
+function colabe(v1, v2, v3, v4) {
+    console.log(v1 + v2 + v3 + v4);
+}
+
+colabe("Lokesh", 5, "Imratlal", 10);
+
+
+// ---> Function Return Values
+function add(v1, v2) {
+    return v1 + v2;
+}
+
+ let num = add(5, 33);
+console.log(num); // 38
+
+function sub(v1, v2, v3) {
+    return v1 - v2 - v3;
+}
+
+let total = sub(5, 10, 25);
+console.log(total); // -30
+
+
+function name(v1, v2, v3) {
+    return v1 + " " + v2 + " " + v3;
+}
+
+let fullName = name("Lokesh", "Imratlal", "Pardhi");
+console.log(fullName); // Lokesh Imratlal Pardhi
+
+
+// ---> Funtion Expression matlab function ko variable me store karna
+const addNumbers = function (v1, v2) {
+    console.log(v1 + v2);
+}
+
+addNumbers(5, 10); // 15
+
+let fullName = function (v1, v2, v3) {
+    return v1 + " " + v2 + " " + v3;
+}
+
+let name = fullName("Lokesh", "Imratlal", "Pardhi");
+console.log(name); // Lokesh Imratlal Pardhi
+
+const mrks = () => {
+    return "Lokesh Imratlal Pardhi";
+}
+
+let meraNaam = mrks();
+console.log(meraNaam); // Lokesh Imratlal Pardhi
